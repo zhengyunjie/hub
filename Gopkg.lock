@@ -62,6 +62,18 @@
   version = "v0.0.1"
 
 [[projects]]
+  branch = "v2"
+  name = "github.com/russross/blackfriday"
+  packages = ["."]
+  revision = "670777b536d38a1aef1d517f6330a77d52ceb02e"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/shurcooL/sanitized_anchor_name"
+  packages = ["."]
+  revision = "86672fcb3f950f35f2e675df2240550f2a50762f"
+
+[[projects]]
   branch = "master"
   name = "golang.org/x/crypto"
   packages = ["ssh/terminal"]
@@ -85,6 +97,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "8da7746ef8bc5712c5e117753f75f96e6eec12fa8967b601cdd006f1b66cc765"
+  inputs-digest = "3d2054d05ec66989b9b6455c6a2e57f075b83d72c0329b8aa1f72cfeb9c115a6"
   solver-name = "gps-cdcl"
   solver-version = 1
